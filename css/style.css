@@ -313,12 +313,22 @@ h1 {
     background-color: rgb(4, 44, 14);
     color: rgb(177, 245, 174);
 }
-img {
+.col3 {
+    width: 33.3%;
     float: left;
-    width:33%;
-    margin: 1px;
 }
-.video-audio {
-    display: flex;
-    justify-content: center;
+.col3 img {
+    padding: 4px;
+}
+video {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
 }
