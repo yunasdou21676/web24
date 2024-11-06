@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logo-mercadona.jpg" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="indexe.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafose.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlacese.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listase.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablase.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formulariose.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimediae.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="home" class="py-3">
+                    <h2 class="text-center">HOME</h2>
+                    <img src="img/logohtmlcss.jpg" alt="" width="100%">
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Yunas Douhal</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

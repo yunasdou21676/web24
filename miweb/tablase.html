@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/sytle.css">
+</head>
+
+<body>
+    <div class="contenedor sombra">
+        <header>
+            <div class="fila alinear-items-centro">
+                <div class="columna-3"><img src="img/logo-mercadona.jpg" alt="logo" width="250"></div>
+                <div class="columna-9">
+                    <span id="btnmenu" onclick="abrirMenu()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="texto-derecha">
+                            <li>
+                                <a href="indexe.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafose.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlacese.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listase.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablase.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formulariose.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimediae.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="sombra">
+            <div class="px-3">
+                <h1 class="texto-centro fondo-azul text-blanco py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="tablas" class="py-3">
+                    <h2 class="text-center">TABLAS</h2>
+                    <h3>Tabla con encabezado de fila:</h3>
+                    <table border="1">
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                        </tr>
+                        <tr>
+                            <td>fghgfb</td>
+                            <td>fghfgh</td>
+                            <td>kjmjhkhj</td>
+                            <td>kjhljhkl</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con encabezado de columna:</h3>
+                    <table border="1">
+                        <tr>
+                            <th>File</th>
+                            <td>gtuyjgfj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Edit</th>
+                            <td>gjghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Selection</th>
+                            <td>gjghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>View</th>
+                            <td>ghjghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Go</th>
+                            <td>ghjghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Run</th>
+                            <td>ghjghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con encabezado de fila y columna:</h3>
+                    <table border="1" class="tfc">
+                        <tr>
+                            <th>File</th>
+                            <th>Edit</th>
+                            <th>Selection</th>
+                            <th>View</th>
+                        </tr>
+                        <tr>
+                            <th>Go</th>
+                            <td>fghfgh</td>
+                            <td>fghgfd</td>
+                            <td>fdghgf</td>
+                        </tr>
+                        <tr>
+                            <th>Run</th>
+                            <td>fghgfdh</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Terminal</th>
+                            <td>fghfg</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Help</th>
+                            <td>fdghdfgh</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Window</th>
+                            <td>gjhghj</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h3>Tabla con combinacion de filas y columnas</h3>
+                    <table border="1">
+                        <tr>
+                            <td rowspan="3">BD</td>
+                            <td>gfhfdgh</td>
+                            <td>fghfg</td>
+                            <td>fghfg</td>
+                        </tr>
+                        <tr>
+                            <td>fghfg</td>
+                            <td>fghfg</td>
+                            <td>fghfg</td>
+                        </tr>
+                        <tr>
+                            <td>trshytrhf</td>
+                            <td>trshytrhf</td>
+                            <td>trshytrhf</td>
+                        </tr>
+                        <tr>
+                            <th colspan="4">Recreo</th>
+                        </tr>
+                        <tr>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                        </tr>
+                        <tr>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                            <td>egrer</td>
+                        </tr>
+                    </table>
+                    <h3>Tablas con diseño diferente filas pares impares</h3>
+                    <table class="striped">
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                        <tr>
+                            <td>content1</td>
+                            <td>content2</td>
+                            <td>content3</td>
+                            <td>content4</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <div class="w80">
+                        <img src="img/horario1dam.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Yunas Douhal</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

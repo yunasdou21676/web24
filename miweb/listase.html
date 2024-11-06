@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/sytle.css">
+</head>
+
+<body>
+    <div class="contenedor sombra">
+        <header>
+            <div class="fila alinear-items-centro">
+                <div class="columna-3"><img src="img/logo-mercadona.jpg" alt="logo" width="250"></div>
+                <div class="columna-9">
+                    <span id="btnmenu" onclick="abrirMenu()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="texto-derecha">
+                            <li>
+                                <a href="indexe.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafose.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlacese.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listase.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablase.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formulariose.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimediae.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="sombra">
+            <div class="px-3">
+                <h1 class="texto-centro fondo-azul text-blanco py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="listas" class="py-3">
+                    <h2 class="text-center">LISTAS</h2>
+                    <h3>Listas Desordenadas</h3>
+                    <ul>
+                        <li>Elemento 1</li>
+                        <li>Elemento 2</li>
+                        <li>Elemento 3</li>
+                        <li>Elemento 4</li>
+                    </ul>
+                    <h3>Listas Ordenadas</h3>
+                    <ol>
+                        <li>Elemento 1</li>
+                        <li>Elemento 2</li>
+                        <li>Elemento 3</li>
+                        <li>Elemento 4</li>
+                    </ol>
+                    <h3>Listas Desordenadas de varios niveles</h3>
+                    <ul>
+                        <li>File
+                            <ul>
+                                <li>Preferencias
+                                    <ul>
+                                        <li>Perfil</li>
+                                        <li>Ajustes</li>
+                                    </ul>
+                                </li>
+                                <li>Open recent
+                                    <ul>
+                                        <li>More</li>
+                                        <li>Clean</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Listas Ordenadas de varios niveles</h3>
+                    <ol>
+                        <li>File
+                            <ol>
+                                <li>Preferencias
+                                    <ol>
+                                        <li>Perfil</li>
+                                        <li>Ajustes</li>
+                                    </ol>
+                                </li>
+                                <li>Open recent
+                                    <ol>
+                                        <li>More</li>
+                                        <li>Clean</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <h3>Listas Desordenadas de varios niveles Customizada</h3>
+                    <ul class="customdes">
+                        <li>File
+                            <ul>
+                                <li>Preferencias
+                                    <ul>
+                                        <li>Perfil</li>
+                                        <li>Ajustes</li>
+                                    </ul>
+                                </li>
+                                <li>Open recent
+                                    <ul>
+                                        <li>More</li>
+                                        <li>Clean</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Listas Ordenadas de varios niveles customizada</h3>
+                    <ol class="customord">
+                        <li>File
+                            <ol>
+                                <li>Preferencias
+                                    <ol>
+                                        <li>Perfil</li>
+                                        <li>Ajustes</li>
+                                    </ol>
+                                </li>
+                                <li>Open recent
+                                    <ol>
+                                        <li>More</li>
+                                        <li>Clean</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <h3>Listas Desordenadas de varios niveles Customizada con icono</h3>
+                    <ul class="customico">
+                        <li>File
+                            <ul>
+                                <li>Preferencias
+                                    <ul>
+                                        <li>Perfil</li>
+                                        <li>Ajustes</li>
+                                    </ul>
+                                </li>
+                                <li>Open recent
+                                    <ul>
+                                        <li>More</li>
+                                        <li>Clean</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>Listas de definición</h3>
+                    <dl class="listadefcustom">
+                        <dt> Gafas</dt>
+                        <dd>Objeto que sirve para ver mejor</dd>
+                        <dt>Tiburón</dt>
+                        <dd>Pez grande de la familia de los mamíferos</dd>
+                        <dt>Cachibache</dt>
+                        <dd>Un objeto que puede ser cualquier trasto</dd>
+                    </dl>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Yunas Douhal</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
